@@ -9,7 +9,7 @@
   }
 
   // This is the path to the JSON files
-  define("DOMAIN", "http://aileenagravante.com/congress-information-search/spa/data/");
+  define("DOMAIN", "https://aileenagravante.azurewebsites.net/congress-information-search/spa/data/");
 
   // These are the constants used when using the Sunlight Foundation API
   // define("SUN_DOMAIN", "http://congress.api.sunlightfoundation.com/");
