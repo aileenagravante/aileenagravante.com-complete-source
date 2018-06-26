@@ -1,0 +1,241 @@
+/** BODY **/
+html, body {
+	height: 100%;
+  background-color: #F5F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-overflow-scrolling: touch;
+}
+
+#main-content .fa-twitter,
+#main-content .fa-facebook-official,
+#main-content .fa-globe,
+#main-content .fa-file-pdf-o {
+	font-size: 26px;
+}
+
+/** HEADER NAV BAR **/
+.navbar {
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+#page-header {
+	margin: 4px 0;
+}
+
+#page-header .btn:active {
+	box-shadow: none;
+}
+
+#page-header img {
+	height: auto;
+	width: auto;
+	max-height: 100px;
+	max-width: 100px;
+}
+
+#page-header a {
+	font-size: 14px;
+	color: #000;
+}
+
+#page-header a:hover {
+	text-decoration: none;
+}
+
+#page-header #logo {
+	margin-top: 8px;
+}
+
+/** MAIN NAVIGATION **/
+#main-nav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  overflow-x: hidden;
+  color: #fff;
+  background-color: #464646;
+}
+
+@media screen and (min-width: 768px) {
+	#main-nav {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#main-nav {
+		width: 50px;
+	}
+}
+
+#main-nav ul {
+	margin-top: 16px;
+}
+
+#main-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #DDD;
+}
+
+#main-nav a:hover {
+	background-color: transparent;
+	color: #FFF;
+}
+
+#main-nav .nav-pills > li.active > a {
+	background-color: transparent;
+}
+
+#main-nav .nav-pills > li.active > a:not(:hover) {
+	background-color: transparent;
+}
+
+#main-nav-btn {
+	background: #FFF;
+}
+
+#main-nav-btn-container {
+	margin-left: -30px;
+}
+
+/** MAIN CONTENT **/
+.content-page-header {
+  border-bottom: 1px solid #ddd;
+	padding-top: 16px;
+  padding-bottom: 20px;
+	margin-bottom: 16px;
+}
+
+#main-content {
+  margin-top: 40px;
+  background-color: #F5F5F5;
+}
+
+@media screen and (min-width: 768px) {
+	#main-content {
+		margin-left: 150px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#main-content {
+		margin-left: 50px;
+	}
+}
+
+.panel .nav-tabs > li.active > a {
+	border-bottom-color: #DDD;
+}
+
+.entire-results .nav > li > a:hover {
+	background-color: transparent;
+}
+
+.entire-results .nav a {
+	color: #DDD;
+}
+
+.panel.panel-default.entire-results {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/** VIEW DETAILS **/
+.view-details-header {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.view-details-header-title {
+	font-size: 18px;
+}
+
+.view-details-body {
+	margin-top: 10px;
+}
+
+#bills .view-details-body .table tr td:first-of-type {
+	font-weight: bold;
+}
+
+.view-details-pdf object {
+	min-height: 500px;
+	width: 100%;
+}
+
+/** RESULTS TABLE **/
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.table-header {
+	font-size: 16px;
+}
+
+table img {
+	height: auto;
+	width: auto;
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.legislator-table td:last-of-type {
+	width: 0;
+}
+
+table .media-body {
+	width: 0;
+	vertical-align: middle;
+}
+
+/** FAVORITES **/
+button .fa-star {
+	font-size: 16px;
+	color: #FFE680;
+	-webkit-text-stroke-width: thin;
+	-webkit-text-stroke-color: #000;
+}
+
+button .fa-star-o {
+	font-size: 16px;
+}
+
+#favorites .bill-title {
+	white-space: normal !important;
+}
+
+/** LEGISLATORS **/
+.legislator-photo {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.legislator-photo h4 {
+	font-weight: bold;
+}
+
+.view-details-secondary table tr td:first-of-type {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+	.view-details-primary,
+	.view-details-secondary {
+		border: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.secondary-carousel-item .table-header {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.view-details-body {
+		padding: 10px;
+	}
+}

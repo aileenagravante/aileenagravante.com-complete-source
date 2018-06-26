@@ -1,0 +1,12 @@
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y); /* Chrome, Safari, Opera */
+      -ms-transform: translate($x, $y); /* IE 9 */
+          transform: translate($x, $y);
+}
+
+@mixin flexbox-vertical-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}

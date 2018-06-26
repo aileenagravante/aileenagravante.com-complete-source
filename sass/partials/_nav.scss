@@ -1,0 +1,33 @@
+.navbar {
+  background: $light-black;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0;
+  .nav {
+    li {
+      font-weight: bold;
+      a,
+      a:focus {
+        color: #fff;
+        background: none;
+      }
+      a:active,
+      a.active {
+        color: $purple;
+      }
+      a:hover {
+        opacity: $opacity;
+      }
+    }
+  }
+}
+
+#menu-button {
+  float: right;
+  .fa {
+    padding-right: 4px;
+  }
+}
+
+#mobile-nav-container {
+  display: none;
+}

@@ -1,0 +1,18 @@
+#contact {
+  background: $light-black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  label {
+    color: #fff;
+    font-weight: normal;
+  }
+  .has-feedback label ~ .form-control-feedback {
+    top: 34px;
+  }
+}
+
+.required:after {
+  content: "*";
+  color: red;
+  font-size: 1.3rem;
+}

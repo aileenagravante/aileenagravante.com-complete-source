@@ -1,0 +1,14 @@
+.modal-body {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+}
+
+#phase-2-mobile-modal,
+#phase-3-modal {
+  video {
+    max-width: 300px;
+  }
+}

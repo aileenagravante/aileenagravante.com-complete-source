@@ -1,0 +1,78 @@
+body,
+html {
+  height: 100%;
+  font-size: 16px;
+  font-family: $sans-serif;
+  background-color: $light-black;
+}
+
+.me-links {
+  a {
+    font-size: 1.4rem;
+    padding: 6px 10px;
+    margin: 0 6px;
+    border-radius: 30px;
+    color: #fff;
+    background: $purple;
+  }
+  a:hover {
+    color: #fff;
+    opacity: $opacity;
+  }
+  a:focus {
+    color: #fff;
+  }
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+a,
+a:hover,
+a:focus {
+  color: $purple;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  opacity: $opacity;
+}
+
+.btn,
+.btn-info {
+  background: $purple;
+  border: none;
+  text-transform: uppercase;
+  .fa {
+    vertical-align: middle;
+    font-size: 1.4rem;
+    padding-right: 6px;
+  }
+}
+
+.btn:hover,
+.btn-info:hover
+.btn:active,
+.btn-info:active,
+.btn:active:hover,
+.btn-info:active:hover,
+.btn:focus,
+.btn-info:focus,
+.btn:active:focus,
+.btn-info:active:focus {
+  background: $purple;
+  border: none;
+  opacity: $opacity;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  @media all and (max-width: 600px) {
+    height: 40px;
+    width: 40px;
+  }
+}
