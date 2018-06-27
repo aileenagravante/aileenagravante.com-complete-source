@@ -1,6 +1,6 @@
 <?php
   if (isset($_SERVER['HTTP_ORIGIN'])) {
-    header('Access-Control-Allow-Origin: http://aileenagravante.com/');
+    header('Access-Control-Allow-Origin: https://aileenagravante.azurewebsites.net/');
     header('Access-Control-Allow-Methods: POST');
     header("Access-Control-Allow-Headers: X-Requested-With");
   }

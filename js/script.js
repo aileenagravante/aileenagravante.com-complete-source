@@ -113,7 +113,7 @@ function functionalizeForm() {
       var message = $('#message').val();
       if(validName && validEmail && validMsg) {
         $.ajax({
-          url: 'http://aileenagravante.com/scripts/contact.php',
+          url: 'https://aileenagravante.azurewebsites.net/scripts/contact.php',
           method: 'POST',
           data: {
             name: name,

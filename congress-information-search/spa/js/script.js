@@ -5,7 +5,7 @@
 //    tells the html where to find the code for elements tagged with ng-app
 var myApp = angular.module('myApp', ['angularUtils.directives.dirPagination']);
 
-var url = 'http://aileenagravante.com/congress-information-search/spa/scripts/congress.php';
+var url = 'https://aileenagravante.azurewebsites.net/congress-information-search/spa/scripts/congress.php';
 // var url = 'http://localhost/congress-spa-final.php';
 
 // Anything inside the scope variable is available inside the controller
