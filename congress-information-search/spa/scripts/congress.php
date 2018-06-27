@@ -2,7 +2,7 @@
   if (isset($_SERVER['HTTP_ORIGIN'])) {
     $http_origin = $_SERVER['HTTP_ORIGIN'];
     if($http_origin == "https://aileenagravante.azurewebsites.net" || $http_origin == "https://www.aileenagravante.azurewebsites.net"
-    || $http_origin == "http://aileenagravante.azurewebsites.net" || || $http_origin == "http://www.aileenagravante.azurewebsites.net") {
+    || $http_origin == "http://aileenagravante.azurewebsites.net" || $http_origin == "http://www.aileenagravante.azurewebsites.net") {
         header("Access-Control-Allow-Origin: $http_origin");
     }
     header("Access-Control-Allow-Methods: GET");
